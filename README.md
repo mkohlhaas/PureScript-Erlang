@@ -19,4 +19,5 @@ Check Compiler Versions
 ```shell
 purs   --version   # 0.15.14
 purerl --version   # 0.0.22
+which erlc         # ~/Kerl/26/bin/erlc; OTP 27 doesn't work
 ```
