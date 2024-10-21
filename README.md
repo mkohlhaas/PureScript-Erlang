@@ -7,6 +7,7 @@ Setting Up Basic Purerl Project
 Just copy this project or:
 ```shell
 spago init
+rm -rf test
 rm packages.dhall
 wget https://raw.githubusercontent.com/id3as/demo-ps/refs/heads/main/server/packages.dhall
 # add purerl backend to spago.dhall
