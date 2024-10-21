@@ -1,3 +1,7 @@
+Installation Notes Erlang and Rebar3
+==
+[Kerl and Rebar3](https://gist.github.com/mkohlhaas/dfbd14a13a483ac086e6a55509a0df84)
+
 Setting Up Basic Purerl Project
 ==
 ```shell
