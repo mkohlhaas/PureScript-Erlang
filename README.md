@@ -4,17 +4,14 @@ Installation Notes Erlang and Rebar3
 
 Setting Up Basic Purerl Project
 ==
+Just copy this project or:
 ```shell
 spago init
 rm packages.dhall
 wget https://raw.githubusercontent.com/id3as/demo-ps/refs/heads/main/server/packages.dhall
 # add purerl backend to spago.dhall
-spago build           # or just `make`
-spago run
-make clean
-spago install maybe
-spago build           # or just `make`
-spago run
+wget https://raw.githubusercontent.com/mkohlhaas/PureScript-Erlang/refs/heads/main/Makefile
+make
 ```
 
 Check Compiler Versions
