@@ -6,11 +6,12 @@ Setting Up Basic Purerl Project
 ==
 Just copy this project or:
 ```shell
-spago init
+spago init --no-comments
+# add purerl backend to spago.dhall
+# add /ebin/ to .gitignore
 rm -rf test
 rm packages.dhall
 wget https://raw.githubusercontent.com/id3as/demo-ps/refs/heads/main/server/packages.dhall
-# add purerl backend to spago.dhall
 wget https://raw.githubusercontent.com/mkohlhaas/PureScript-Erlang/refs/heads/main/Makefile
 make
 ```
