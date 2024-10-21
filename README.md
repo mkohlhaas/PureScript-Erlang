@@ -8,6 +8,7 @@ Setting Up Basic Purerl Project
 spago init
 rm packages.dhall
 wget https://raw.githubusercontent.com/id3as/demo-ps/refs/heads/main/server/packages.dhall
+# add purerl backend to spago.dhall
 spago build           # or just `make`
 spago run
 make clean
