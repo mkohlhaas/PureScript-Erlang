@@ -11,3 +11,4 @@ clean:
 	@rm -rf output/
 	@rm -rf ebin/
 	@rm -rf .spago/
+	@rm -rf .purs-repl
